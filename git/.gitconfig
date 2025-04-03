@@ -1,0 +1,8 @@
+[user]
+	name = alexherranzdev
+	email = kyeownz@gmail.com
+	signingkey = 2D9498D74D9B1A0C8EF9989763BCEBD4E292C4FF
+[commit]
+	gpgSign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg

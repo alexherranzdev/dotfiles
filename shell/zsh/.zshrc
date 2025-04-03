@@ -27,3 +27,12 @@ prompt ${DOTLY_THEME:-codely}
 source "$DOTLY_PATH/shell/zsh/bindings/dot.zsh"
 source "$DOTLY_PATH/shell/zsh/bindings/reverse_search.zsh"
 source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
+
+PATH=~/.console-ninja/.bin:$PATH
+# pnpm
+export PNPM_HOME="/Users/alexherranzalba/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
