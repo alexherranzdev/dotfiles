@@ -17,7 +17,8 @@
     "search.useGlobalIgnoreFiles": true,
     "files.autoSave": "onFocusChange",
     "files.associations": {
-        "Dockerfile-*": "dockerfile"
+        "Dockerfile-*": "dockerfile",
+        "*.tpl": "php"
     },
     // ✍️ Editor
     "editor.minimap.enabled": false,
@@ -33,11 +34,7 @@
     "workbench.tree.horizontalScrolling": true,
     "files.trimTrailingWhitespace": true,
     // ⬛ Terminal
-<<<<<<< HEAD
-    "terminal.external.osxExec": "iTerm.app",
-=======
     "terminal.external.osxExec": "warp.app",
->>>>>>> fc6bab0 (setup gpg)
     "terminal.integrated.fontFamily": "DankMono Nerd Font Mono, Hack, Menlo, Monaco, monospace",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.lineHeight": 1.4,
@@ -72,5 +69,5 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "git.confirmSync": false,
-    "terminal.integrated.env.osx": {},
+    "terminal.integrated.env.osx": {}
 }
