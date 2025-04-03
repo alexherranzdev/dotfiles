@@ -7,6 +7,7 @@
     "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": "multiple",
+    "explorer.compactFolders": false,
     // ⚙️ Common settings
     "window.restoreWindows": "all",
     "window.openFoldersInNewWindow": "on",
@@ -22,8 +23,8 @@
     },
     // ✍️ Editor
     "editor.minimap.enabled": false,
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
     "editor.fontFamily": "DankMono Nerd Font Mono, Hack, Menlo, Monaco, monospace",
     "editor.fontSize": 14,
     "editor.lineHeight": 32,
