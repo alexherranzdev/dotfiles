@@ -25,7 +25,7 @@
     "editor.minimap.enabled": false,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.fontFamily": "DankMono Nerd Font Mono, Hack, Menlo, Monaco, monospace",
+    "editor.fontFamily": "DankMono Nerd Font, Hack, Menlo, Monaco, monospace",
     "editor.fontSize": 14,
     "editor.lineHeight": 32,
     "editor.rulers": [120],
@@ -36,7 +36,7 @@
     "files.trimTrailingWhitespace": true,
     // ⬛ Terminal
     "terminal.external.osxExec": "warp.app",
-    "terminal.integrated.fontFamily": "DankMono Nerd Font Mono, Hack, Menlo, Monaco, monospace",
+    "terminal.integrated.fontFamily": "DankMono Nerd Font, Hack, Menlo, Monaco, monospace",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.lineHeight": 1.4,
     // 👨‍💻 Programming languages
