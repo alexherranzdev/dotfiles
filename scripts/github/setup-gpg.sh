@@ -1,4 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Setup GPG para usar con Git
+##?
+##? Usage:
+##?    setup-gpg
+docs::parse "$@"
 
 echo "🔐 Configurando GPG y firma de commits en Git..."
 
