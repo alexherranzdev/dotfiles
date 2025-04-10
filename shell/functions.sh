@@ -17,3 +17,7 @@ function recent_dirs() {
 
 	cd "$(echo "$selected" | sed "s/\~/$escaped_home/")" || echo "Invalid directory"
 }
+
+function ggpush() {
+  git push origin "$(git symbolic-ref --short HEAD)"
+}
