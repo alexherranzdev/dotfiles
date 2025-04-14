@@ -19,7 +19,8 @@
     "files.autoSave": "onFocusChange",
     "files.associations": {
         "Dockerfile-*": "dockerfile",
-        "*.tpl": "php"
+        "*.tpl": "php",
+        "*.mdx": "markdown"
     },
     // ✍️ Editor
     "editor.minimap.enabled": false,
