@@ -11,7 +11,7 @@ alias dotfiles='cd $DOTFILES_PATH'
 # Git
 alias gaa="git add -A"
 alias gswd='git switch develop'
-alias gswm='git switch master'
+alias gswm='git switch main'
 alias gc='$DOTLY_PATH/bin/dot git commit'
 alias gca="git add --all && git commit --amend --no-edit"
 alias gco="git checkout"
