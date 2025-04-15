@@ -8,6 +8,10 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": "multiple",
     "explorer.compactFolders": false,
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports": "always",
+        "source.organizeImports": "always",
+    },
     // ⚙️ Common settings
     "window.restoreWindows": "all",
     "window.openFoldersInNewWindow": "on",
@@ -16,6 +20,13 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "search.useGlobalIgnoreFiles": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
     "files.autoSave": "onFocusChange",
     "files.associations": {
         "Dockerfile-*": "dockerfile",
@@ -33,7 +44,6 @@
     "editor.wordWrap": "on",
     "editor.wrappingIndent": "indent",
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.tree.horizontalScrolling": true,
     "files.trimTrailingWhitespace": true,
     // ⬛ Terminal
     "terminal.external.osxExec": "warp.app",
